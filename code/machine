@@ -27,3 +27,5 @@ for method in methods:
     cv2.imwrite(os.path.join('plastics/{}.jpg'.format(now)), img2)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+
+# this code is in the raspberry pi, using open cv and has two external folders the assets and the plastics folder.
